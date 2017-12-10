@@ -1,0 +1,6 @@
+framework module Pods_LocalTreeTesting {
+  umbrella header "Pods-LocalTreeTesting-umbrella.h"
+
+  export *
+  module * { export * }
+}

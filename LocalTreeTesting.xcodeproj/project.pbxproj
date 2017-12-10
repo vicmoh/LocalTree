@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C1137261E5FB5F60076B63B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C1137251E5FB5F60076B63B /* GoogleService-Info.plist */; };
 		1C59A93A1E23148B00BA616C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C59A9391E23148B00BA616C /* AppDelegate.swift */; };
 		1C59A93C1E23148B00BA616C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C59A93B1E23148B00BA616C /* ViewController.swift */; };
 		1C59A93F1E23148B00BA616C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C59A93D1E23148B00BA616C /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		1C59A9441E23148B00BA616C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C59A9421E23148B00BA616C /* LaunchScreen.storyboard */; };
 		1C59A94F1E23148B00BA616C /* LocalTreeTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C59A94E1E23148B00BA616C /* LocalTreeTestingTests.swift */; };
 		1C59A95A1E23148B00BA616C /* LocalTreeTestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C59A9591E23148B00BA616C /* LocalTreeTestingUITests.swift */; };
+		1C6DEE0E1E6256080010990B /* SettingsTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6DEE0D1E6256080010990B /* SettingsTabController.swift */; };
+		9EF37CFA59895AD5F1CAE6F7 /* Pods_LocalTreeTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1450965F9DD7FA26E06B6769 /* Pods_LocalTreeTesting.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1450965F9DD7FA26E06B6769 /* Pods_LocalTreeTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalTreeTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C1137221E5EBEF00076B63B /* LocalTreeTesting.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LocalTreeTesting.entitlements; sourceTree = "<group>"; };
+		1C1137251E5FB5F60076B63B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1C59A9361E23148B00BA616C /* LocalTreeTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalTreeTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C59A9391E23148B00BA616C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C59A93B1E23148B00BA616C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,9 @@
 		1C59A9551E23148B00BA616C /* LocalTreeTestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalTreeTestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C59A9591E23148B00BA616C /* LocalTreeTestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalTreeTestingUITests.swift; sourceTree = "<group>"; };
 		1C59A95B1E23148B00BA616C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C6DEE0D1E6256080010990B /* SettingsTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTabController.swift; sourceTree = "<group>"; };
+		84672AA3D7FEE71866FAD3BB /* Pods-LocalTreeTesting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalTreeTesting.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocalTreeTesting/Pods-LocalTreeTesting.release.xcconfig"; sourceTree = "<group>"; };
+		CD8B0965AB59F4062C4B5A8F /* Pods-LocalTreeTesting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalTreeTesting.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocalTreeTesting/Pods-LocalTreeTesting.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EF37CFA59895AD5F1CAE6F7 /* Pods_LocalTreeTesting.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +91,8 @@
 				1C59A94D1E23148B00BA616C /* LocalTreeTestingTests */,
 				1C59A9581E23148B00BA616C /* LocalTreeTestingUITests */,
 				1C59A9371E23148B00BA616C /* Products */,
+				CAB5B95C58974F24144B44B2 /* Pods */,
+				55E61FB186FEC2A34D4DC37F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +109,15 @@
 		1C59A9381E23148B00BA616C /* LocalTreeTesting */ = {
 			isa = PBXGroup;
 			children = (
+				1C1137221E5EBEF00076B63B /* LocalTreeTesting.entitlements */,
 				1C59A9391E23148B00BA616C /* AppDelegate.swift */,
 				1C59A93B1E23148B00BA616C /* ViewController.swift */,
+				1C6DEE0D1E6256080010990B /* SettingsTabController.swift */,
 				1C59A93D1E23148B00BA616C /* Main.storyboard */,
 				1C59A9401E23148B00BA616C /* Assets.xcassets */,
 				1C59A9421E23148B00BA616C /* LaunchScreen.storyboard */,
 				1C59A9451E23148B00BA616C /* Info.plist */,
+				1C1137251E5FB5F60076B63B /* GoogleService-Info.plist */,
 			);
 			path = LocalTreeTesting;
 			sourceTree = "<group>";
@@ -125,6 +140,23 @@
 			path = LocalTreeTestingUITests;
 			sourceTree = "<group>";
 		};
+		55E61FB186FEC2A34D4DC37F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1450965F9DD7FA26E06B6769 /* Pods_LocalTreeTesting.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAB5B95C58974F24144B44B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD8B0965AB59F4062C4B5A8F /* Pods-LocalTreeTesting.debug.xcconfig */,
+				84672AA3D7FEE71866FAD3BB /* Pods-LocalTreeTesting.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C59A95E1E23148B00BA616C /* Build configuration list for PBXNativeTarget "LocalTreeTesting" */;
 			buildPhases = (
+				808B9B7E6C309987FA7744D4 /* [CP] Check Pods Manifest.lock */,
 				1C59A9321E23148B00BA616C /* Sources */,
 				1C59A9331E23148B00BA616C /* Frameworks */,
 				1C59A9341E23148B00BA616C /* Resources */,
+				3F40759053918D0A9DDC7266 /* [CP] Embed Pods Frameworks */,
+				F5B870D865C00DF68E040D72 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +228,13 @@
 				TargetAttributes = {
 					1C59A9351E23148B00BA616C = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RVSLPPTH6M;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					1C59A9491E23148B00BA616C = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -233,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C59A9441E23148B00BA616C /* LaunchScreen.storyboard in Resources */,
+				1C1137261E5FB5F60076B63B /* GoogleService-Info.plist in Resources */,
 				1C59A9411E23148B00BA616C /* Assets.xcassets in Resources */,
 				1C59A93F1E23148B00BA616C /* Main.storyboard in Resources */,
 			);
@@ -254,6 +296,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3F40759053918D0A9DDC7266 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocalTreeTesting/Pods-LocalTreeTesting-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		808B9B7E6C309987FA7744D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F5B870D865C00DF68E040D72 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocalTreeTesting/Pods-LocalTreeTesting-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1C59A9321E23148B00BA616C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +351,7 @@
 			files = (
 				1C59A93C1E23148B00BA616C /* ViewController.swift in Sources */,
 				1C59A93A1E23148B00BA616C /* AppDelegate.swift in Sources */,
+				1C6DEE0E1E6256080010990B /* SettingsTabController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,8 +499,11 @@
 		};
 		1C59A95F1E23148B00BA616C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD8B0965AB59F4062C4B5A8F /* Pods-LocalTreeTesting.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon";
+				CODE_SIGN_ENTITLEMENTS = LocalTreeTesting/LocalTreeTesting.entitlements;
+				DEVELOPMENT_TEAM = RVSLPPTH6M;
 				INFOPLIST_FILE = LocalTreeTesting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Vicky-Mohammad.LocalTreeTesting";
@@ -420,8 +514,11 @@
 		};
 		1C59A9601E23148B00BA616C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84672AA3D7FEE71866FAD3BB /* Pods-LocalTreeTesting.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon";
+				CODE_SIGN_ENTITLEMENTS = LocalTreeTesting/LocalTreeTesting.entitlements;
+				DEVELOPMENT_TEAM = RVSLPPTH6M;
 				INFOPLIST_FILE = LocalTreeTesting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Vicky-Mohammad.LocalTreeTesting";
@@ -503,6 +600,7 @@
 				1C59A9601E23148B00BA616C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C59A9611E23148B00BA616C /* Build configuration list for PBXNativeTarget "LocalTreeTestingTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +609,7 @@
 				1C59A9631E23148B00BA616C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C59A9641E23148B00BA616C /* Build configuration list for PBXNativeTarget "LocalTreeTestingUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +618,7 @@
 				1C59A9661E23148B00BA616C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
